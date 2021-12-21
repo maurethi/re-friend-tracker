@@ -17,7 +17,8 @@ export class GuiModel {
                             "type": "text", 
                             "name": "Nickname", 
                             "width": 2, 
-                            "required": true },
+                            "required": true
+                        },
                         {
                             "id": "familyName",
                             "type": "text",
@@ -142,6 +143,12 @@ export class GuiModel {
                             "icon": "fa-cubes",
                             "color": "yellow",
                             "page": "locationspage",
+                        },
+                        {   "type": "button",
+                            "name": "Groups",
+                            "icon": "fa-weixin",
+                            "color": "wisteria",
+                            "page": "groupspage", 
                         },
                     ]
                 },
