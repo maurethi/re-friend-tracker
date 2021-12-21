@@ -217,7 +217,23 @@ export class GuiModel {
 
                     ]
                 },
-                { "id": "groupspage", "elementList": [ { "type": "backbutton", }, { "type": "newButton", "name": "NewGroup", "icon": "fa-weixin", "color": "green", "form": { "form": "GroupForm" } } ] }
+                { "id": "groupspage", "elementList": [ 
+                    { "type": "backbutton", }, 
+                    { "type": "newButton", "name": "NewGroup", "icon": "fa-weixin", "color": "green", "form": 
+                    { "form": "GroupForm" } 
+                    },
+                    {
+                        "type": "list",
+                        "icon": "fa-weixin",
+                        "color": "wisteria",
+                        "search": true,
+                        "url": "/group",
+                        "form": {
+                        "form": "GroupForm"
+                        }
+                        },
+                    ] 
+            }
             ]
         }
     };
