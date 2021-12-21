@@ -173,7 +173,7 @@ export class GuiModel {
                             "icon": "fa-user",
                             "color": "green",
                             "form": {
-                                "form": "FriendForm"
+                            "form": "FriendForm"
                             }
                         },
                         {
@@ -183,9 +183,11 @@ export class GuiModel {
                             "search": true,
                             "url": "/friend",
                             "form": {
-                                "form": "FriendForm"
+                            "form": "FriendForm"
                             }
                         },
+                        { "id": "group", "type": "autocomplete", "name": "Group",
+                            "url": "/group", "form": "GroupForm", "width": 2 },
                     ]
                 },
                 {
